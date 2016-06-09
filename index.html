@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<title></title>
+
+<link rel="stylesheet" href="css/app4.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css">
+<link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+<script src="js/jquery-1.12.1.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js" type="text/javascript"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+<div data-role="page" id="page1">
+ <div data-theme="c" data-role="header">
+  <h2>
+   Base de Datos
+  </h2>
+ </div>
+ 
+ <div data-role="content">
+  <a id="Crear" data-role="button" data-theme="e" href="#">
+  Crear Tabla
+  </a>
+  <a id="Eliminar" data-role="button" data-theme="e" href="#">
+  Eliminar Tabla
+  </a>
+  <h2 align="center">
+   Cliente
+  </h2>
+  <div data-role="fieldcontain" align="center">
+   <input name="" id="Nombre" placeholder="Nombre" value="" type="text">
+  </div>
+  <div data-role="fieldcontain" align="center">
+   <input name="" id="Apellido" placeholder="Apellido" value="" type="text">
+  </div>
+  <a id="Insertar" data-role="button" data-theme="e" href="#" data-icon="check" data-iconpos="right">
+   Insertar Cliente
+  </a>
+  <a id="Listar" data-role="button" data-theme="e" href="#listado" data-icon="bars" data-iconpos="right">
+   Listado
+  </a>
+ </div>
+ <div data-theme="a" data-role="footer" data-position="fixed">
+  <h2>Juan Pérez Hernández</h2>
+  
+ </div>
+</div>
+
+<div data-role="page" id="listado" data-add-back-btn="true">
+  <div data-theme="e" data-role="footer" data-position="fixed">
+  <h3>Juan</h3>
+  </div>
+  </div>
+</body>
+</html>
